@@ -1,0 +1,25 @@
+{
+ "instruction_timestamp_examples": [
+  "2026-03-15 14:25:36.125",
+  "2026-03-15 14:25:36.125",
+  "2026-03-15 17:25:36.125"
+ ],
+ "examples_matching_schema_ISODateTime": 0,
+ "feedback_rows": 27,
+ "feedback_rows_with_recordref": 22,
+ "recordref_in_scientific_notation": 8,
+ "distinct_recordref_values": [
+  "1.77932E+18",
+  "Ord_1779321887089541910",
+  "Ord_1779321887089541910_EXTENDED_CLIENT_REFERENCE_SUFFIX"
+ ],
+ "annex2_references_schema_files": [
+  "JSONschemaCryptoAssetRecordKCryptoAssetOrderBookReport-auth118-V1.0.schema.json",
+  "eepingReport-auth117-V1.0.schema.json"
+ ],
+ "schema_files_in_2025_zip": [
+  "CryptoAssetOrderBookReport-auth118-V1.0.schema.json",
+  "CryptoAssetOrderKeepingReport-auth116-V1.0.schema.json",
+  "CryptoAssetRecordKeepingReport-auth117-V1.0.schema.json"
+ ]
+}
