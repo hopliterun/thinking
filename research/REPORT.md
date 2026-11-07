@@ -106,7 +106,7 @@ trail.
 **Deployment:** a container that runs inside the CASP, so data stays in-house. Phase 1 excludes personal data
 (C08), which keeps GDPR and trust exposure low at the start.
 
-**Executed feasibility probe (T02).** A ~300-line Python prototype built only from public ESMA artifacts
+**Executed feasibility probe (T02).** A ~270-line Python prototype built only from public ESMA artifacts
 implements FIL-101/102, batch completeness, 14 MET rules and 7 QUA rules, plus a duplicate store across
 submissions. Results:
 
