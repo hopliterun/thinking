@@ -1,0 +1,149 @@
+{
+	"Document": {
+		"CrptAsstOrdrBookRpt": {
+			"RptHdr": {
+				"RptgNtty": {
+					"MktIdCd": "XMIC"
+				},
+				"RptgPrd": {
+					"Dt": "2026-12-01"
+				},
+				"SubmissnDtTm": "2026-12-03T23:59:00",
+				"MsgPgntn": {
+					"PgNb": "1",
+					"LastPgInd": "1"
+				},
+				"NbRcrds": "1"
+			},
+			"OrdrRpt": {
+				"New": {
+					"RptId": "RPT123456",
+					"Ordr": {
+						"OrdrIdData": {
+							"EvtTp": {
+								"Cd": "NEWO"
+							},
+							"SeqNb": "3758947",
+							"OrdrId": "Xj26F460g",
+							"TmStmp": "2026-12-01T10:09:38.981242Z",
+							"TradVn": "XMIC",
+							"DtOfRct": "2026-12-01",
+							"CrptAsst": {
+								"DgtlTknIdr": {
+									"DTI": "123456789"
+								}
+							},
+							"VldtyPrd": {
+								"VldtyPrdCd": "DAVY"
+							},
+							"VldtyDtTm": "2026-12-01T23:59:59.999999Z",
+							"OrdrBookId": "45533344ABC"
+							},
+						"OrdrData": {
+							"SubmitgNtty": {
+								"LEI": "12345678901234567890"
+							},
+							"Clnt": {
+								"LEI": "12345678901234567890"
+								},
+							"InvstmtDcsnPrsn": {
+								"Prsn": {
+									"Id": "FR19631203ANNEMBERG#",
+									"SchmeNm": {
+										"Prtry": "CONCAT"
+									},
+									"CtryOfRes": {
+										"Cd": "FR"
+									}
+								}
+							},
+							"ExctgPrsn": {
+								"Algo": "4567EFZ"
+							},
+							"NonExctgBrkr": {
+								"PtyXcptn": "NOAP"
+							},
+							"TradgCpcty": "AOTC",
+							"OrdrClssfctn": {
+								"OrdrTp": "P",
+								"OrdrTpClssfctn": "LMTO"
+							},
+							"OrdrPrics": {
+								"LmtPric": {
+									"Pric": {
+										"MntryVal": {
+											"Amt": {
+												"amt": "20000",
+												"Ccy": "EUR"
+											},
+											"Sgn": "0"
+										}
+									}
+								},
+								"StopPric": {
+									"NoPric": {
+										"Pdg": "NOAP"
+									}
+								},
+								"AddtlLmtPric": {
+									"NoPric": {
+										"Pdg": "NOAP"
+									}
+								},
+								"PggdPric": {
+									"NoPric": {
+										"Pdg": "NOAP"
+									}
+								}
+							},
+							"InstrData": {
+								"BuySellInd": "BUYI",
+								"OrdrVldtySts": "ACTI",
+								"InitlQty": {
+									"Unit": "50"
+								},
+								"RmngQty": {
+									"Unit": "50"
+								},
+								"DispdQty": {
+									"Unit": "50"
+								},
+								"MinAccptblQty": {
+									"XcptnId": "NOAP"
+								},
+								"MinExctbl": {
+									"Sz": {
+										"Unit": "10"
+									},
+									"FrstExctnOnly": "1"
+								},
+								"PssvOnlyInd": "1",
+								"SlfExctnPrvntn": "1",
+								"RtgStrtgy": "ABCDEFGHIJKLMNOPQRST"
+							},
+							"TxData": {
+								"TxPric": {
+									"Pric": {
+										"MntryVal": {
+											"Amt": {
+												"amt": "2000000",
+												"Ccy": "EUR"
+											},
+											"Sgn": "0"
+										}
+									}
+								},
+								"TraddQty": {
+									"Unit": "100"
+								},
+								"PssvOrAggrssvInd": "AGRE",
+								"StrtgyLkdOrdrId": "A12345",
+								"TxId": "A123"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
