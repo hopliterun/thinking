@@ -1,0 +1,105 @@
+{
+	"Document": {
+		"CrptAsstRcrdKeepgRpt": {
+			"Tx": {
+				"New": {
+					"Tx": {
+						"TradDt": "2026-12-03T23:59:00",
+						"TradgCpcty": "AOTC",
+						"Qty": {
+							"Unit": "100"
+						},
+						"Pric": {
+							"Pric": {
+								"MntryVal": {
+									"Amt": {
+										"amt": "10000",
+										"Ccy": "EUR"
+									},
+									"Sgn": "0"
+								}
+							}
+						},
+						"TradVn": "XMIC",
+						"CtryOfBrnch": "XX",
+						"BrnchInd": "FALS",
+						"UpFrntPmt": {
+							"MntryVal": {
+								"Amt": {
+									"amt": "10000",
+									"Ccy": "EUR"
+								},
+								"Sgn": "0"
+							}
+						},
+						"TradPlcMtchgId": "String",
+						"CmplxTradCmpntId": "String"
+					},
+					"Buyr": {
+						"AcctOwnr": {
+							"Id": {
+								"LEI": "12345678901234567890"
+								},
+							"BrnchInd": "FALS",
+							"CtryOfBrnch": "XX"
+						},
+						"DcsnMakr": {
+							"Prsn": {
+								"FrstNm": "Yyyyy",
+								"Nm": "Xxxxx",
+								"BirthDt": "1976-01-01",
+								"Othr": {
+									"Id": "US123456789ZZ",
+									"SchmeNm": {
+										"Cd": "CCPT"
+									}
+								}
+							}
+						}
+					},
+					"Sellr": {
+						"AcctOwnr": {
+							"Id": {
+								"Intl": "INTC"
+							},
+							"BrnchInd": "FALS",
+							"CtryOfBrnch": "XX"
+						},
+						"DcsnMakr": {
+							"LEI": "12345678901234567890"
+						}
+					},
+					"CrptAsst": {
+						"DgtlTknIdr": {
+							"DTI": "123456789"
+						},
+						"Clssfctn": {
+							"Txnmy": "ARTW"
+						}
+					},
+					"ExctgPty": {
+						"LEI": "12345678901234567890"
+					},
+					"TxRcrdId": "1234567890",
+					"ExctgPrsn": {
+						"Algo": "String"
+					},
+					"ShrtSellg": "1",
+					"OrdrTrnsmssn": {
+						"TrnsmssnInd": "1",
+						"TrnsmttgBuyr": {
+							"LEI": "12345678901234567890"
+						},
+						"TrnsmttgSellr": {
+							"LEI": "12345678901234567890"
+						}
+					},
+					"InvstmtPtyInd": "1",
+					"InvstmtDcsnPrsn": {
+						"Algo": "String"
+					}
+				}
+			}
+		}
+	}
+}

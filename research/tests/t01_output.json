@@ -1,0 +1,53 @@
+{
+ "register_rows": 397,
+ "unique_leis": 394,
+ "active_rows_no_end_date": 394,
+ "unique_active_leis": 391,
+ "lower_bound_execution_reporters_bcde": 314,
+ "upper_bound_execution_reporters_bcdefgi": 359,
+ "trading_platforms_b_orderbook_reporters": 21,
+ "trading_platform_names": [
+  "360 Treasury Systems AG",
+  "AlphaRoute",
+  "Baden-Württembergische Wertpapierbörse GmbH",
+  "Bitstamp",
+  "Bitvavo B.V.",
+  "COINMATE a.s.",
+  "FF Digital",
+  "FIRI AS",
+  "Gate",
+  "Kraken, Kraken Digital Asset Exchange",
+  "MP Developers s.r.o.",
+  "NBX",
+  "OKX",
+  "One Trading Exchange B.V.",
+  "PAYMIUM",
+  "PM MTF LTD",
+  "RULEMATCH",
+  "SMART VALOR",
+  "Webot",
+  "ZBX",
+  "zerohash europe"
+ ],
+ "legal_basis_of_core": {
+  "Article 60 - Notification": 108,
+  "Article 63 - CASP authorisation": 104,
+  "(blank)": 93,
+  "Article 63": 5,
+  "Article 60": 3,
+  "Both Article 60 & 63": 1
+ },
+ "home_state_of_core_top10": {
+  "DE": 99,
+  "FR": 26,
+  "NL": 22,
+  "CY": 21,
+  "MT": 20,
+  "LV": 12,
+  "AT": 11,
+  "CZ": 11,
+  "IE": 11,
+  "LI": 9
+ },
+ "latest_ac_lastupdate": "03/11/2026"
+}
