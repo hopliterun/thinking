@@ -1,0 +1,132 @@
+{
+	"Document": {
+		"CrptAsstOrdrKeepgRpt": {
+			"RptHdr": {
+				"RptgNtty": {
+					"MktIdCd": "XMIC"
+				},
+				"RptgPrd": {
+					"Dt": "2026-12-01"
+				},
+				"SubmissnDtTm": "2026-12-03T23:59:00",
+				"MsgPgntn": {
+					"PgNb": "1",
+					"LastPgInd": "1"
+				},
+				"NbRcrds": "1"
+			},
+			"OrdrRpt": {
+				"New": {
+					"RptId": "String",
+					"Ordr": {
+						"OrdrIdData": {
+							"EvtTp": {
+								"Cd": "NEWO"
+							},
+							"OrdrId": "Xj26F460g",
+							"TmStmp": "2026-12-01T10:09:38.981242Z",
+							"TradVn": "XMIC",
+							"CrptAsst": {
+								"DgtlTknIdr": {
+									"DTI": "123456789"
+								},
+								"Clssfctn": {
+									"Txnmy": "ARTW"
+								}
+							},
+							"VldtyPrd": {
+								"VldtyPrdCd": "DAVY"
+							},
+							"VldtyDtTm": "1000-01-01T00:00:00"
+							},
+						"OrdrData": {
+							"Clnt": {
+								"LEI": "12345678901234567890"
+								},
+							"InvstmtDcsnPrsn": {
+								"Prsn": {
+									"Id": "FR19631203ANNEMBERG#",
+									"SchmeNm": {
+										"Prtry": "CONCAT"
+									}
+								}
+							},
+							"ExctgPrsn": {
+								"Algo": "4567EFZ"
+							},
+							"TradgCpcty": "AOTC",
+							"OrdrClssfctn": {
+								"OrdrTp": "P",
+								"OrdrTpClssfctn": "LMTO"
+							},
+							"OrdrPrics": {
+								"LmtPric": {
+									"Pric": {
+										"MntryVal": {
+											"Amt": {
+												"amt": "20000",
+												"Ccy": "EUR"
+											},
+											"Sgn": "0"
+										}
+									}
+								},
+								"StopPric": {
+									"NoPric": {
+										"Pdg": "NOAP"
+									}
+								},
+								"AddtlLmtPric": {
+									"NoPric": {
+										"Pdg": "NOAP"
+									}
+								},
+								"PggdPric": {
+									"NoPric": {
+										"Pdg": "NOAP"
+									}
+								}
+							},
+							"InstrData": {
+								"BuySellInd": "BUYI",
+								"OrdrVldtySts": "ACTI",
+								"InitlQty": {
+									"Unit": "50"
+								},
+								"RmngQty": {
+									"Unit": "50"
+								},
+								"MinExctbl": {
+									"Sz": {
+										"Unit": "10"
+									},
+									"FrstExctnOnly": "1"
+								},
+								"PssvOnlyInd": "1",
+								"SlfExctnPrvntn": "1"
+							},
+							"TxData": {
+								"TxPric": {
+									"Pric": {
+										"MntryVal": {
+											"Amt": {
+												"amt": "2000000",
+												"Ccy": "EUR"
+											},
+											"Sgn": "0"
+										}
+									}
+								},
+								"TraddQty": {
+									"Unit": "100"
+								},
+								"PssvOrAggrssvInd": "AGRE",
+								"TxId": "A123"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
