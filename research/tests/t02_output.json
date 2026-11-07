@@ -1,0 +1,176 @@
+{
+ "a_annex4_sample_filename_FIL101": [
+  "FIL-101"
+ ],
+ "a_esma_sample_rk_findings": {},
+ "a_esma_sample_rk_examples": [],
+ "a_esma_sample_ob_findings": {
+  "QUA-006": 4,
+  "MET-008": 3,
+  "MET-013": 14,
+  "QUA-004": 1
+ },
+ "a_esma_sample_ob_examples": [
+  [
+   "QUA-006",
+   "WARNING",
+   "0",
+   "Segment MIC",
+   "PGSL populated without TxId (NEWO)"
+  ],
+  [
+   "MET-008",
+   "REJECTION",
+   "16",
+   "Validity period and time",
+   "2026-05-21T00:04:52.552 <= 2026-05-21T00:04:52.552"
+  ],
+  [
+   "QUA-006",
+   "WARNING",
+   "16",
+   "Segment MIC",
+   "PGSL populated without TxId (CAME)"
+  ]
+ ],
+ "a_ob_sample_records": 40,
+ "a_rk_sample_records": 637,
+ "a_met006_text_format_outcome": [
+  "FIL-102"
+ ],
+ "b_mutations": {
+  "MET-004": {
+   "detected": true,
+   "new_codes": [
+    "MET-004"
+   ]
+  },
+  "MET-005": {
+   "detected": true,
+   "new_codes": [
+    "MET-005"
+   ]
+  },
+  "MET-006": {
+   "detected": true,
+   "new_codes": [
+    "MET-006"
+   ]
+  },
+  "QUA-002": {
+   "detected": true,
+   "new_codes": [
+    "QUA-002"
+   ]
+  },
+  "QUA-005": {
+   "detected": true,
+   "new_codes": [
+    "QUA-005"
+   ]
+  },
+  "QUA-008": {
+   "detected": true,
+   "new_codes": [
+    "QUA-008"
+   ]
+  },
+  "MET-007": {
+   "detected": false,
+   "new_codes": [
+    "FIL-102"
+   ]
+  },
+  "MET-008": {
+   "detected": true,
+   "new_codes": [
+    "MET-008"
+   ]
+  },
+  "MET-009": {
+   "detected": true,
+   "new_codes": [
+    "MET-009",
+    "MET-011",
+    "QUA-006"
+   ]
+  },
+  "MET-010": {
+   "detected": true,
+   "new_codes": [
+    "MET-010"
+   ]
+  },
+  "MET-012": {
+   "detected": true,
+   "new_codes": [
+    "MET-012"
+   ]
+  },
+  "MET-014": {
+   "detected": true,
+   "new_codes": [
+    "MET-014"
+   ]
+  },
+  "MET-015": {
+   "detected": true,
+   "new_codes": [
+    "MET-015"
+   ]
+  },
+  "MET-016": {
+   "detected": false,
+   "new_codes": [
+    "FIL-102"
+   ]
+  },
+  "QUA-001": {
+   "detected": false,
+   "new_codes": [
+    "FIL-102"
+   ]
+  },
+  "QUA-007": {
+   "detected": true,
+   "new_codes": [
+    "MET-011",
+    "QUA-007"
+   ]
+  },
+  "MET-011": {
+   "detected": true,
+   "new_codes": [
+    "MET-011"
+   ]
+  }
+ },
+ "b_detection_rate": "14/17",
+ "b_escalated_to_FIL102": [
+  "MET-007",
+  "MET-016",
+  "QUA-001"
+ ],
+ "b2_follow_QUA006_drop_segment_mic": [
+  "FIL-102"
+ ],
+ "b2_QUA001_overlong_order_id": [
+  "FIL-102"
+ ],
+ "b2_MET016_bad_enum": [
+  "FIL-102"
+ ],
+ "b2_MET007_gtdv_without_validity_time": [
+  "FIL-102"
+ ],
+ "c_resubmission_duplicates": 637,
+ "d_batch_missing_part": [
+  "BATCH-INCOMPLETE"
+ ],
+ "d_scaled_records": 25480,
+ "d_bytes_per_record_compact": 557,
+ "d_records_per_500MB_file_est": 940718,
+ "d_validate_seconds": 16.93,
+ "d_records_per_second": 1505,
+ "d_findings_on_scaled": {}
+}
